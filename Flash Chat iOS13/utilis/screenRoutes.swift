@@ -7,3 +7,10 @@
 //
 
 import Foundation
+class ScreenRoutes {
+    static let registerToChatScreen = "RegisterToChatScreen"
+    static let loginToChatScreen = "LoginToChatScreen"
+    // Add more screen identifiers as needed
+
+    // You can add additional methods or properties as needed for your specific use case
+}

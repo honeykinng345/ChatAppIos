@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: CLTypingLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //titleLabel.charInterval = 0.08 //optional, default is 0.1
+        titleLabel.text = "⚡️FlashChat"
 
        
     }
