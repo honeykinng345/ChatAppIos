@@ -17,7 +17,7 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         //titleLabel.charInterval = 0.08 //optional, default is 0.1
         titleLabel.text = "⚡️FlashChat"
-
+       print("Hello World")
        
     }
     
